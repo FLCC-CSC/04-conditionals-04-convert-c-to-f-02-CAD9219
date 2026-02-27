@@ -16,11 +16,11 @@
 print('===== Temperature Converter =====\n')
 print ('  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius')
 
-user_choice = input('Please choose from the above menu: ')
-user_temp = input('Enter a temperature to convert: ')
+user_choice = float(input('Please choose from the above menu: '))
+user_temp = float(input('Enter a temperature to convert: '))
 
-fahrenheit_con = float(user_temp) * 9/5 + 32
-celcius_con = (float(user_temp) - 32) * 5/9
+fahrenheit_con = user_temp * 9/5 + 32
+celcius_con = (fuser_temp) - 32) * 5/9
 
 if user_choice == '1':  
   print( user_temp, 'degrees Celsius is', fahrenheit_con, 'degrees Fahrenheit.') 
