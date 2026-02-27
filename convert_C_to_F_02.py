@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Collin Dillabough
+# DATE: 02/27/2026
+# BRIEF DESCRIPTION:  Converts Temperatures 
 
 
 
