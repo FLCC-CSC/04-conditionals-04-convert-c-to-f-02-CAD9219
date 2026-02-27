@@ -13,12 +13,8 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
-<<<<<<< HEAD
+print('===== Temperature Converter =====\n')
 print ('1. Convert from Celsius to Fahrenheit\n2. Convert from Fahrenheit to celsius')
-=======
-print('===== Temperature Converter =====')
-print ('1. Convert from Celsius to Fahrenheit \n2. Convert from Fahrenheit to celsius')
->>>>>>> bf71d2ed5d03347717444c89da89a76b9eb36f23
 
 user_choice = input('Please choose from the above menu: ')
 user_temp = input('Enter a temperature to convert: ')
