@@ -28,7 +28,7 @@ jobs:
         timeout: 10
         max-score: 6
         setup-command: apt-get update && apt-get install -y curl && curl "https://gist.githubusercontent.com/johnghidiuflcc/a0ebb51376ca1effe6d4b5d6f631527e/raw"
-          -o test_01.py
+          -o test_02.py
     - name: Test Case 03 [212f]
       id: test-case-03-212f
       uses: classroom-resources/autograding-python-grader@v1
@@ -36,7 +36,7 @@ jobs:
         timeout: 10
         max-score: 6
         setup-command: apt-get update && apt-get install -y curl && curl "https://gist.githubusercontent.com/johnghidiuflcc/c0ed0ee80259bf449914045b01da186e/raw"
-          -o test_01.py
+          -o test_03.py
     - name: Test Case 04 [M40c]
       id: test-case-04-m40c
       uses: classroom-resources/autograding-python-grader@v1
@@ -44,7 +44,7 @@ jobs:
         timeout: 10
         max-score: 6
         setup-command: apt-get update && apt-get install -y curl && curl "https://gist.githubusercontent.com/johnghidiuflcc/003fad496edad5ec7cbfe9222249acd1/raw"
-          -o test_01.py
+          -o test_04.py
     - name: Test Case 05 [M40f]
       id: test-case-05-m40f
       uses: classroom-resources/autograding-python-grader@v1
@@ -52,7 +52,7 @@ jobs:
         timeout: 10
         max-score: 6
         setup-command: apt-get update && apt-get install -y curl && curl "https://gist.githubusercontent.com/johnghidiuflcc/fc2f3f81d76b200bdaf65564182fb7cb/raw"
-          -o test_01.py
+          -o test_05.py
     - name: Autograding Reporter
       uses: classroom-resources/autograding-grading-reporter@v1
       env:
