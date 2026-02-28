@@ -1,8 +1,8 @@
 # FILE NAME - convert_C_to_F_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: Collin Dillabough
+# DATE: 02/27/2026
+# BRIEF DESCRIPTION:  Converts Temperatures 
 
 
 
@@ -14,7 +14,27 @@
 
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
+print('===== Temperature Converter =====\n')
+print ('  1. Convert from Celsius to Fahrenheit\n  2. Convert from Fahrenheit to Celsius')
 
+user_choice = input('Please choose from the above menu: ')
+user_temp = input('Enter a temperature to convert: ')
+user_choice = float(input('Please choose from the above menu: '))
+user_temp = float(input('Enter a temperature to convert: '))
+
+fahrenheit_con = float(user_temp) * 9/5 + 32
+celcius_con = (float(user_temp) - 32) * 5/9
+fahrenheit_con = user_temp * 9/5 + 32
+celcius_con = (fuser_temp) - 32) * 5/9
+
+if user_choice == '1':  
+  print( user_temp, 'degrees Celsius is', fahrenheit_con, 'degrees Fahrenheit.') 
+
+elif user_choice == '2': 
+  print( user_temp, 'degrees Fahrenheit is', celcius_con, 'degrees Celsius.') 
+
+else:
+ print('Please try again with a proper option of either 1 or 2.')
 
 
 
@@ -92,8 +112,7 @@ Enter a temperature to convert: -40
 '''
 
 1. What is one lesson you learned in this lab?
-
-
+That the copilot mistake check tool is very helpful. 
 
 
 
